@@ -26,8 +26,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 COuntry App<a name="about-project"></a>
-Stay informed about the countries with our user-friendly Country app! Get information for all the countries, our Country app has you covered with all the essential information you need at your fingertips!
+# 📖 Countries App<a name="about-project"></a>
+The "Countries APP" is a user-friendly mobile application that allows users to explore and learn about different countries from around the world. Whether you are a curious traveler, a student studying geography, or simply interested in discovering new cultures, this app will be your go-to resource for comprehensive country information.
+![image](https://github.com/TuyishimireEric/CountriesApp/assets/102757126/0c46f6ed-886e-4f46-ac03-ad15f4e6053f)
+
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://tuyishimireeric.github.io/CountriesApp/)
