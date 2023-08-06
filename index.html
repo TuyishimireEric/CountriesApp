@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountriesApp</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/icon.png">
+</head>
+<body>
+    <header class="home-header"></header>
+    <form class="filter">
+        <input type="text" placeholder="Search.." id="search" maxlength="30">
+        <div>
+            <select id="regionFilter">
+                <option value="" selected disabled>Filter by Region</option>
+                <option value="">All world</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+            <button type="reset" id="clearButton">clear</button> 
+        </div>
+    </form>
+    
+    <main class="container"></main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
