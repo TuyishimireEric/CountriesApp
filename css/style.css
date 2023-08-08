@@ -164,3 +164,81 @@ body {
     font-size: 16px;
     font-weight: 300;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(3, auto);
+    }
+    .filter input {
+        font-size: 14px;
+        width: 25vw;
+        height: 40px;
+    }
+    
+    .filter select {
+        font-size: 14px;
+        width: 15vw;
+        height: 40px;
+    }
+    
+    .filter button {
+        height: 40px;
+        width: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, auto);
+    }
+    .home-header {
+        padding: 0 8vw;
+        top: 0;
+        height: 100px;
+    }
+    
+    .title h1 {
+        font-size: 16px;
+    }
+    .filter input {
+        font-size: 12px;
+        width: 80vw;
+        height: 40px;
+    }
+    
+    .filter select {
+        font-size: 14px;
+        width: 80vw;
+        height: 40px;
+    }
+    
+    .filter button {
+        height: 40px;
+        width: 70px;
+    }
+    .filter {
+        width: 100vw;
+        height: 150px;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    body {
+        padding-top: 280px;
+    }
+    .mode {
+        font-size: 10px;
+        gap: 4px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        grid-template-columns: repeat(1, auto);
+    } 
+    .title h1 {
+        font-size: 14px;
+    }
+}
